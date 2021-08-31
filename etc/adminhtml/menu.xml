@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+            id="MageReactor_Base::main"
+            title="MageReactor"
+            translate="title"
+            module="MageReactor_Base"
+            sortOrder="50"
+            resource="MageReactor_Base::main"/>
+    </menu>
+</config>
