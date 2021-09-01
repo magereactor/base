@@ -2,10 +2,7 @@
     "name": "magereactor/base",
     "description": "MageReactor Base",
     "type": "magento2-module",
-    "license": [
-        "OSL-3.0",
-        "AFL-3.0"
-    ],
+    "license": "MIT",
     "version": "0.0.1",
     "authors": [
         {
@@ -13,6 +10,7 @@
             "homepage": "https://www.magereactor.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.5"
     },
