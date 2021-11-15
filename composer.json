@@ -3,7 +3,7 @@
     "description": "MageReactor Base",
     "type": "magento2-module",
     "license": "MIT",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "authors": [
         {
             "name": "MageReactor",
@@ -28,11 +28,5 @@
         "psr-4": {
             "MageReactor\\Base\\": ""
         }
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://github.com/magereactor/base"
-        }
-    ]
+    }
 }
