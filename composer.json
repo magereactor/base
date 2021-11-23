@@ -1,0 +1,31 @@
+{
+    "name": "magereactor/base",
+    "description": "MageReactor Base",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "MageReactor",
+            "homepage": "https://www.magereactor.com"
+        }
+    ],
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/framework": "103.0.*"
+    },
+    "keywords": [
+        "magereactor",
+        "magereactor magento 2",
+        "MageReactor Base"
+    ],
+
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageReactor\\Base\\": ""
+        }
+    }
+}
